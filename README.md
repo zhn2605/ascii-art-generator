@@ -18,7 +18,7 @@ Run main.py to start.
 
 Enter image file path (drag into images folder is recommended)
 ```
-Enter your file name: <image.jpg>
+Enter your file name: ../images/<image_name.jpg>
 ```
 
 Enter a width (scales height automatically)
