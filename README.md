@@ -1,8 +1,8 @@
 # ASCII Art Converter
 ASCII Art Converter is a basic tool that converts images to ASCII Art.
 
-Cat.
 ![image](https://github.com/user-attachments/assets/1d9ce695-1135-4061-88d6-66b40fa7a63e)
+cat
 
 # Features
 - Image Scalable
