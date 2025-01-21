@@ -8,6 +8,10 @@ class ImageProcessor:
     def __str__(self):
         print(self.im.format, self.im.size, self.im.mode)
         self.im.show()
+    
+    # experiment
+    def pixel_brightness(self):
+        self.
 
     def image_to_ascii(self, image_path, width=100):
         self.img = Image.open(image_path)
@@ -15,15 +19,13 @@ class ImageProcessor:
         aspect_ratio = self.img.height / self.img.width
         height = int(width * aspect_ratio)
         self.img = self.img.resize((width, height))
-        
-        self.img = self.img.convert('L')
         pixels = np.array(self.img)
         
         ascii_str = ''
         for row in pixels:
             for pixel in row:
                 pixel_value = self.img.getpixel((row, pixel))
-                ascii_str += self.ascii_chars[char_index]
+                ascii_str += self.ascii_chars[self.assign_ascii(pixel_value)]
             ascii_str += '\n'
             
         return ascii_str
