@@ -7,6 +7,7 @@ cat
 # Features
 - Image Scalable
 - ASCII Art Conversion (gray scale)
+- Save as JPG
 
 # Configuration
 (Very scuffed right now)
@@ -27,6 +28,5 @@ Enter size of ascii art (in pixels): <width as a number>
 ```
 
 # To-Do
-- WIP: Save ASCII Art as image 
 - WIP: ASCII Art Conversion (color)
 - WIP: Video Conversion
